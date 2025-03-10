@@ -10,13 +10,13 @@ function sortear() {
         document.getElementById("de").value = "";
         document.getElementById("ate").value = "";
         document.getElementById("resultado").innerHTML = "<label class='texto__paragrafo'>Números sorteados:  nenhum até agora</label>";
-        alert("Do número está maior que o Até o número");
+        alert("O campo 'Do número' está maior que o campo 'Até o número'");
     }else if (quant > (ate - de + 1)) {
         document.getElementById("quantidade").value = "";
         document.getElementById("de").value = "";
         document.getElementById("ate").value = "";
         document.getElementById("resultado").innerHTML = "<label class='texto__paragrafo'>Números sorteados:  nenhum até agora</label>";
-        alert("Quantidade de números está maior que o Até o número");
+        alert("O campo 'Quantidade de números' está maior que o campo 'Até o número'");
     }else{
 
         for (let i = 0; i < quant; i++){
