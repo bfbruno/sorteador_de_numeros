@@ -1,4 +1,4 @@
-<h1>Sorteador de número</h1>
+<h1>Sorteador de números</h1>
  
  <h2>🔖 Sobre</h2>
  <p>Projeto utilizado no curso da Alura Lógica de programação: praticando com desafios.</p>
